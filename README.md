@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# zoyya-code-exercise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [Getting started](#getting-started)
+* [About this repo](#about-this-repo)
+* [The exercise](#the-exercise)
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+1. Install [Node.js](https://nodejs.org/en/) 
+2. Clone this repo: `git clone git@github.com:ZoyyaApp/zoyya-code-exercise.git`
+3. Install dependencies: `cd zoyya-code-exercise && npm install`
+4. Start the app with `npm run`
 
-### `yarn start`
+Now you'll have a local app running! Follow along to the next section
+to learn more about how this project is organized.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About this repo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### React app
 
-### `yarn test`
+This exercise is using [React.js](https://reactjs.org/docs/hello-world.html) components. *If you're not familiar with React, don't worry, the exercise is simple enough, and basic knowledge of javascript, HTML and CSS should be enough to complete it. Also, we'll take your experience into account when reviewing the exercise ;)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All frontend code is located in `./src/App.js` file. You'll find a simple conditional there which renders the `locationsList` or `locationDetail` based on the state of the component. Since we didn't want to introduce any routing logic for this exercise, the simplest way to render different views is use to change the state in the `App.js` component. However, if you would prefer to introduce some routing, you are free to do so.
 
-### `yarn build`
+The app is using plain CSS for styles, which is located in `./src/App.css`. Feel free to add your styles there, or organize them in a different way. If you have experience with `styled-components` feel free to use that instead.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### The data
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The data you'll be using for this exercise is located in `./src/database`. There are 2 files, one has the data for all the locations (should be used for the locations list component) and the other has the data of one location (should be used for the location detail component).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## The exercise
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We expect these tasks to take about 3 hours, but they may take less for you. Please don't feel you need to spend more than 3 hours on this, the purpose of this exercise is for us to get a feel for your JS/HTML/CSS knowledge, we don't expect the final result to look exactly like the one in the screenshots or to have as much detail! 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you have any questions or would like clarification, please email ivana@zoyya.com. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### How to complete the exercise
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+As your complete parts of the exercise, please use git to commit your code as you would normally work on a project. This is helpful component to see how you work as well.
 
-## Learn More
+When you are complete, you can submit your work by zipping your the `zoyya-code-exercise` directory and emailing it to us. **Please remove the `node_modules` directory before you zip, that won't be necessary 😉.** You can use Mac's "create archive" feature, Window's "compressed (zipped) folder," or the zip cli on Linux.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Try to complete the tasks to the best of your ability 😃 Good luck!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tasks
 
-### Code Splitting
+1. Create a "Locations List" component which shows all the locations from the data file, and their basic information (name, image, description) (similar to the picture below)
+2. Implement an onClick event on the Location item and render the Location detail component (similar to the picture below)
+3. The Location Detail component should show basic location information (name, address, image, description, team members)
+4. Add your CSS and design. 
+5. *If you would like, feel free to use a different design and layout than the one shown on the screenshots or organize the code in a way you think is best.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![screenshot of end locations list](https://drive.google.com/file/d/173Ch0gfS8oYvWRBLmj6crNbSi9r1jfVF/view?usp=sharing)
 
-### Making a Progressive Web App
+![screenshot of end locations list](https://drive.google.com/file/d/1KR_JlhQOcCnh4EUDzy2O-5b8Xx0VbkHF/view?usp=sharing)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
