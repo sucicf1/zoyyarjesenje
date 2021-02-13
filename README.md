@@ -52,10 +52,14 @@ Try to complete the tasks to the best of your ability 😃 Good luck!
 5. *If you would like, feel free to use a different design and layout than the one shown on the screenshots or organize the code in a way you think is best.*
 
 
-### Screenshots
+## Screenshots
 
-![screenshot of end locations list](https://drive.google.com/file/d/173Ch0gfS8oYvWRBLmj6crNbSi9r1jfVF/view?usp=sharing)
+### Locations List
 
-![screenshot of end locations list](https://drive.google.com/file/d/1KR_JlhQOcCnh4EUDzy2O-5b8Xx0VbkHF/view?usp=sharing)
+![screenshot of end locations list](https://uploads-ssl.webflow.com/5f104abb3aa5a96156dbb059/6027b3d9f2efac4516eac50b_locationsList.png)
+
+### Location Detail
+
+![screenshot of end locations list](https://uploads-ssl.webflow.com/5f104abb3aa5a96156dbb059/6027b3f1b18b474ea35a9b62_location.png)
 
 
