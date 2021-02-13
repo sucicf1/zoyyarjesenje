@@ -26,7 +26,7 @@ The app is using plain CSS for styles, which is located in `./src/App.css`. Feel
 
 ### The data
 
-The data you'll be using for this exercise is located in `./src/database`. There are 2 files, one has the data for all the locations (should be used for the locations list component) and the other has the data of one location (should be used for the location detail component).
+The data you'll be using for this exercise is located in `./src/database`. There you'll find the `locations.json` file which has all the locations and their information you'll need for this exercise (name, description, image, teammembers...).
 
 
 ## The exercise
@@ -37,9 +37,9 @@ If you have any questions or would like clarification, please email ivana@zoyya.
 
 ### How to complete the exercise
 
-As your complete parts of the exercise, please use git to commit your code as you would normally work on a project. This is helpful component to see how you work as well.
+As you complete parts of the exercise, please use git to commit your code as you would normally work on a project. This is helpful component to see how you work as well.
 
-When you are complete, you can submit your work by zipping your the `zoyya-code-exercise` directory and emailing it to us. **Please remove the `node_modules` directory before you zip, that won't be necessary 😉.** You can use Mac's "create archive" feature, Window's "compressed (zipped) folder," or the zip cli on Linux.
+When you are complete, you can submit your work by zipping your `zoyya-code-exercise` directory and emailing it to posao@zoyya.com. **Please remove the `node_modules` directory before you zip, that won't be necessary 😉.** You can use Mac's "create archive" feature, Window's "compressed (zipped) folder," or the zip cli on Linux.
 
 Try to complete the tasks to the best of your ability 😃 Good luck!
 
