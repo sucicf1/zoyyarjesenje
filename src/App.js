@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       {!selectedLocation ?
-        locations.map(location =>  <div onClick={()=>setSelectedLocation(location)}>{location.name}</div>)
+          <LocationList loc={locations} />
        : <div>
           ...INSERT SELECTED LOCATION DATA HERE...
         </div>}
@@ -17,3 +17,31 @@ function App() {
 }
 
 export default App;
+
+class LocationList extends React.Component {
+  render() {
+    const loc = this.props.loc;
+    const listItems = loc.map((item) =>
+      <div key={item.id} class="item">
+        <img src={item.imageUrl} />
+        <div class="itemInfo">
+          <div class="category">
+            {item.category}
+          </div>
+          <h5>{item.name}</h5>
+          <div class="address">
+            {item.address}
+          </div>
+          <div class="seeLoc">
+            -> SEE LOCATION
+          </div>
+        </div>
+      </div>
+    );
+    return (
+      <div class="listItems">
+        {listItems}
+      </div>
+    );
+  }
+}

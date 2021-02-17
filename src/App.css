@@ -1,5 +1,52 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
-
-
+.item {
+  width: 200px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 8px;
+  border-color: rgb(184, 184, 245);
+  background-color: white;
+}
+.item img {
+  width: 200px;
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.itemInfo {
+  margin: 10px;
+  height: 100px;
+  position: relative;
+}
+.itemInfo h5 {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  width: 180px;
+}
+.seeLoc {
+  text-decoration: underline;
+  color: blue;
+  margin-bottom: 0px;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+}
+.itemInfo .address {
+  font-size: 12px;
+  margin-top: 2px;
+  width: 180px;
+}
+.listItems {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(246, 246, 255);
+}
+.category {
+  font-size: 12px;
+  height: 17px;
+  margin-top: 5px;
+  color: blue;
+  width: 180px;
+}
