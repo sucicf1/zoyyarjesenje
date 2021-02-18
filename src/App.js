@@ -112,8 +112,11 @@ class LocationList extends React.Component {
       </div>
     );
     return (
-      <div class="listItems">
-        {listItems}
+      <div class="listContainer">
+        <h2>Featured partners</h2>
+        <div class="listItems">
+          {listItems}
+        </div>
       </div>
     );
   }
